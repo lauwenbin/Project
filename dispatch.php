@@ -42,7 +42,7 @@ $descriptionofIncident = $_POST['descriptionofIncident'];
     </div>
 
     <div class="form-group row">
-        <label for="locationofIncident class="col-sm-4 col-form-label">
+        <label for="locationofIncident" class="col-sm-4 col-form-label">
         Location of Incident</label>
         <div class="col-sm-8">
             <?php echo $locationofIncident; ?>
@@ -51,7 +51,7 @@ $descriptionofIncident = $_POST['descriptionofIncident'];
     </div>
 
     <div class="form-group row">
-        <label for="typefIncident class="col-sm-4 col-form-label">
+        <label for="typefIncident" class="col-sm-4 col-form-label">
         Type of Incident</label>
         <div class="col-sm-8">
             <?php echo $typeofIncident; ?>
@@ -60,7 +60,7 @@ $descriptionofIncident = $_POST['descriptionofIncident'];
     </div>
 
     <div class="form-group row">
-        <label for="descriptionfIncident class="col-sm-4 col-form-label">
+        <label for="descriptionfIncident" class="col-sm-4 col-form-label">
         Description of Incident</label>
         <div class="col-sm-8">
             <?php echo $descriptionofIncident; ?>
